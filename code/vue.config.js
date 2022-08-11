@@ -5,7 +5,12 @@ module.exports = defineConfig({
   
   devServer: 
   {
-    allowedHosts: ['127.0.0.1', 'https://kanban-frontend-ke7hp.ondigitalocean.app/']
+    allowedHosts: ['127.0.0.1', 'https://kanban-frontend-ke7hp.ondigitalocean.app/'],
+    client: {
+      reconnect: 4
+    },
+    compress: true,
+    host: '0.0.0.0'
   },
 
   parallel: true
