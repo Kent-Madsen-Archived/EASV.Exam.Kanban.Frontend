@@ -5,8 +5,7 @@ module.exports = defineConfig({
   
   devServer: 
   {
-    disableHostCheck: true,
-    proxy: 'https://kanban-frontend-ke7hp.ondigitalocean.app/'
+    allowedHosts: ['127.0.0.1', 'https://kanban-frontend-ke7hp.ondigitalocean.app/']
   },
 
   parallel: true
