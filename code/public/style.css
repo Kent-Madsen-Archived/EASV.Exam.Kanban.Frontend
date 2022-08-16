@@ -1,3 +1,5 @@
-
-
-/*# sourceMappingURL=style.css.map */
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
