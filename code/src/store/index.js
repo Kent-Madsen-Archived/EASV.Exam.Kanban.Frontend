@@ -1,9 +1,12 @@
-import { createStore } from 'vuex'
+import { createStore }
+    from 'vuex';
 
-export default createStore(
-  {
+export default createStore
+(
+{
     state:
     {
+
     },
     getters:
     {
@@ -18,4 +21,4 @@ export default createStore(
     {
     }
   }
-)
+);
