@@ -3,11 +3,10 @@
 
   </div>
 </template>
-
 <script>
   export default
   {
-    name: 'HomeView',
+    name: 'RegistrationView',
     components:
     {
 
