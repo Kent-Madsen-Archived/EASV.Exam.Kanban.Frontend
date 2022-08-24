@@ -1,21 +1,35 @@
 html 
 {
+  @extend %empty;
 
+}
+
+body
+{
+  @extend %empty;
+  
 }
 
 header 
 {
+  @extend %empty;
     
 }
 
 main 
 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+  @extend %empty;
+
 }
 
 footer 
 {
+  @extend %empty;
     
+}
+
+nav
+{
+  @extend %empty;
+
 }
